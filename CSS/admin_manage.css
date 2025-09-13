@@ -1,0 +1,134 @@
+/* General Page Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+/* Navbar */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ff9800;
+}
+
+/* Main Section */
+/* Dashboard Main */
+main {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+main p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+
+/* Form Styling */
+.event-form {
+    background: white;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.event-form input, 
+.event-form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.event-form button {
+    background: #e5a10d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.event-form button:hover {
+    background: #d1b00c;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+table th {
+    background: #2c3e50;
+    color: white;
+}
+table img {
+    border-radius: 6px;
+}
+table button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table button:hover {
+    background: #c0392b;
+}
+table form button[name="edit"] {
+    background: #3498db;
+}
+table form button[name="edit"]:hover {
+    background: #2980b9;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  margin-top: auto;
+}

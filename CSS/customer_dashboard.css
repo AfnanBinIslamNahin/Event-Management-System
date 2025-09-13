@@ -1,0 +1,225 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Form Styling */
+form {
+  margin: 20px auto;
+  padding: 15px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+  width: 800px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form select, form input, form button {
+  width: 80%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #acae27;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #b57b08;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover,
+nav a.active {
+  color: #ff9800;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: flex-start;  /* Stick to top */
+  padding-top: 40px;
+}
+
+
+
+.dashboard-box {
+  background: #fff;
+  padding: 10px 10px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 500px;
+  max-width: 90%;
+}
+
+.dashboard-box h2 {
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ff9800;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.dashboard-box p {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #222;
+  color: #fff;
+  margin-top: auto;
+}
+
+/* Payment Table Styles */
+.table-container {
+    margin: 20px auto;
+    max-width: 900px;
+    overflow-x: auto;
+}
+
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.payment-table thead {
+    background: #222;
+    color: #fff;
+}
+
+.payment-table th, 
+.payment-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.95rem;
+}
+
+.payment-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.payment-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Status Colors */
+.payment-table td.completed {
+    color: green;
+    font-weight: bold;
+}
+.payment-table td.pending {
+    color: orange;
+    font-weight: bold;
+}
+.payment-table td.failed {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.slideshow-container {
+  width: 100%;
+  max-width: 900px;
+  height: 500px;
+  margin: auto;
+    margin: 50px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0px 6px 16px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7s ease-in-out;
+}
+
+.slides img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+
+ object-fit: cover;  /* Fills container, crops if needed */
+}
+
+/* Optional: navigation dots */
+.dots {
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+}
+
+.dots span {
+  height: 10px;
+  width: 10px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.dots .active {
+  background-color: #ff9800;
+}

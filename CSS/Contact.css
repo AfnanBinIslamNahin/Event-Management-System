@@ -1,0 +1,141 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar */
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ff9800;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Contact Layout */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Contact Form */
+.contact-form {
+  flex: 1;
+  min-width: 320px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #e68900;
+}
+
+/* Contact Info */
+.contact-info {
+  flex: 1;
+  min-width: 320px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.contact-info h3 {
+  margin-top: 10px;
+  color: #ff9800;
+}
+
+.contact-info p {
+  margin: 8px 0;
+}
+nav a.active {
+  color: #ff9800;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+.contact-info a:hover {
+  color: #ff9800;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
