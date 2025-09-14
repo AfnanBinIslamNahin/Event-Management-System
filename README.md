@@ -1,10 +1,8 @@
-# 🎉 Event Management System  
+#  🎉 EventSphere 
 
 ## 📌 Project Overview  
-The **Event Management System** is a web-based application built using **PHP (MVC Architecture)**, **MySQL**, **HTML**, **CSS**, and **JavaScript**.  
-It allows users to register, log in, and manage event-related tasks, while admins can manage users and event details.  
-
-This system is designed to simplify the process of event registration, management, and administration.  
+EventSphere is a full-featured **Event Management System** built using **PHP (MVC Architecture)**, MySQL, HTML, CSS, and JavaScript.  
+It allows **Admins** to manage events, users, and payments, while **Customers** can register, book events, make payments, and track their bookings.
 
 ---
 
@@ -15,12 +13,14 @@ This system is designed to simplify the process of event registration, managemen
 - View available events  
 - Register for events  
 - Manage personal profile  
-
+- After Booking Confirm he can pay
+- 
 ### 👨‍💼 Admin Features  
 - Admin Login & Logout  
-- Add, Update, Delete Admins  
+- Add, Update, Delete Admins
+-  Add, Update, Delete Users 
 - Manage Events (Add, Edit, Delete events)  
-- Manage Users (View, Delete users)  
+- View Confirm Payment  
 
 ---
 
@@ -90,11 +90,49 @@ Event-Management-System/
         - Username: `root`
         - Password: `` (empty)
         - Database: `event_management_system`
+
+
         
+---
+
+## ⚡ Installation & Setup  
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/AfnanBinIslamNahin/Event-Management-System.git
+
+2. **Move Project to XAMPP**
+
+Copy the folder to C:\xampp\htdocs\Event-Management-System\
+
+3. **Import Database**
+
+    -Open phpMyAdmin
+
+    -Create a new database (name event_management_system)
+
+    -Import the SQL file (database.sql) from the project
+
+4 **Configure Database Connection**
+
+   -Open database.php (or your db config file)
+
+   -Set your MySQL username, password, and database name
+
+
+  ## 🛠️ Technologies Used  
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)  
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)  
+
+
 ## Contact
 
 For more information, reach out to:
 
-- **Email:** [ 22-49350-3@student.aiub.edu](mailto: 22-49350-3@student.aiub.edu)
+- **Email:** [ 22-49350-3@student.aiub.edu](mailto:22-49350-3@student.aiub.edu)
 - **Email:** [nahin.islam.bd4@gmail.com](mailto:nahin.islam.bd4@gmail.com)
 
