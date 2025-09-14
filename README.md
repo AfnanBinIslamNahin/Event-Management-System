@@ -1,4 +1,4 @@
-#  🎉 EventSphere 
+# 🎊 EventSphere-MVC Based Full Stack Web Application
 
 ## 📌 Project Overview  
 EventSphere is a full-featured **Event Management System** built using **PHP (MVC Architecture)**, MySQL, HTML, CSS, and JavaScript.  
