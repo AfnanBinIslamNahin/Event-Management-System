@@ -41,44 +41,61 @@ Event-Management-System/
 │── controllers/
 │   ├── LoginController.php
 │   ├── UserController.php
-│   ├── EventController.php
-│   ├── BookingController.php
-│   ├── PaymentController.php
+│   ├── admin_event_controller.php
+│   ├── admin_manage_booking.php
+│   ├── admin_payment_controller.php
 │   └── admin_manage_users_controller.php
-│
-│── models/
-│   ├── model_login.php
-│   ├── model_user.php
-│   ├── model_event.php
-│   ├── model_booking.php
-│   └── model_payment.php
+│   └── admin_manage_controller.php
+│   └── BookingController.php
+│   └── CustomerDashboardController.php
+│   └── logout.php
+│   └── paymentController.php
+│   └── profileController.php
+│   
 │
 │── views/
 │   ├── view_login.php
-│   ├── view_signup.php
+│   ├── view_profile.php
 │   ├── Customer_view.php (Dashboard)
-│   ├── admin_dashboard.php
-│   ├── admin_manage_events.php
-│   ├── admin_manage_bookings.php
+│   ├── payment.php
+│   ├── register_signup.php
+│   ├── admin_manage_booking.php
 │   ├── admin_manage_users.php
-│   ├── admin_manage_payments.php
+│   ├── admin_manage_payment.php
+│   └── success.php
+│   └── my_booking.php
+│   └── event_booking.php
 │   └── booking_form.php
-│
-│── public/
-│   ├── css/
-│   │   ├── login.css
-│   │   ├── signup.css
-│   │   ├── dashboard.css
-│   │   └── admin.css
-│   └── 
+│   └──admin_view_manage.php
+│   └── Admin_view.php
+│   └── admin_manage.php 
+│     
+│    
 │       
 │
-│── index.php
+│
 │── README.md
+|
+|
+
+
+
+
 
 ```
+ **Configuration**:
 
-## 👨‍💻 Author
+    - Database credentials in `config/database.php` default to:
+        - Host: `localhost`
+        - Username: `root`
+        - Password: `` (empty)
+        - Database: `event_management_system`
+        
+## Contact
 
-Afnan Bin Islam Nahin
-📧 Email: 22-49350-3@student.aiub.edu
+For more information, reach out to:
+
+- **Email:** [ 22-49350-3@student.aiub.edu](mailto: 22-49350-3@student.aiub.edu)
+- **GitHub:** []()
+-**Linkedin:** []()
+
