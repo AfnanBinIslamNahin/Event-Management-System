@@ -30,8 +30,8 @@ This system is designed to simplify the process of event registration, managemen
 - **Database:** MySQL  
 - **Server:** XAMPP (Apache, MySQL, PHP)  
 
----
 
+```
 ## 📂 Project Structure  
 
 Event-Management-System/
@@ -70,12 +70,13 @@ Event-Management-System/
 │   │   ├── signup.css
 │   │   ├── dashboard.css
 │   │   └── admin.css
-│   └── js/
-│       └── showPassword.js
+│   └── 
+│       
 │
 │── index.php
 │── README.md
 
+```
 
 ## 👨‍💻 Author
 
