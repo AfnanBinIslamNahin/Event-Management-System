@@ -171,6 +171,6 @@ Copy the folder to C:\xampp\htdocs\Event-Management-System\
 
 For more information, reach out to:
 
-- **Email:** [ 22-49350-3@student.aiub.edu](mailto:22-49350-3@student.aiub.edu)
+
 - **Email:** [nahin.islam.bd4@gmail.com](mailto:nahin.islam.bd4@gmail.com)
 
