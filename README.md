@@ -108,7 +108,17 @@ Event-Management-System/
 |      └── user_manage.css
 |
 |
-
+|   ── HTML/ 
+|      └── About.html
+|      └── Contact.html
+|      └── Home_Page.html
+|      └── Services.html
+|
+|   ── database/ 
+|            └── event_management_system.sql
+|
+|   ── IMAGE/ 
+|         └──PICTURE
 
 ```
  **Configuration**:
