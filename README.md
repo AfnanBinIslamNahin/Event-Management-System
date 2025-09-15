@@ -71,15 +71,43 @@ Event-Management-System/
 │   └── admin_manage.php 
 │     
 │    
-│       
-│
-│
-│── README.md
+│  ── Models/     
+│      └── admin.php 
+│      └── admin_event.php     
+│      └── admin_manage_booking.php 
+|      └── admin_manage_users.php 
+|      └── admin_payment.php 
+|      └── booking.php 
+|      └── booking_form.php
+|      └── model_login.php
+|      └── model_payment.php
+|      └── model_profile.php
+|      └── User.php
+|      └── admin_manage.php 
 |
 |
-
-
-
+|
+|   ── CSS/     
+│      └── about.css
+│      └── admin.css    
+│      └── admin_manage.css 
+|      └── admin_payment.css
+|      └── admin_user.css
+|      └── booking_form1.css
+|      └── booking1.css
+|      └── Contact.css
+|      └── customer_dashboard.css
+|      └── customer_dashboard1.css
+|      └── Home_Page.css
+|      └── Login.css
+|      └── my_booking.css
+|      └── payment.css
+|      └── profile.css
+|      └── services.css
+|      └── Sign_up.css
+|      └── user_manage.css
+|
+|
 
 
 ```
