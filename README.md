@@ -15,7 +15,7 @@ It allows **Admins** to manage events, users, and payments, while **Customers** 
 - Register for events  
 - Manage personal profile  
 - After Booking Confirm he can pay
-- 
+ 
 ### 👨‍💼 Admin Features  
 - Admin Login & Logout  
 - Add, Update, Delete Admins
